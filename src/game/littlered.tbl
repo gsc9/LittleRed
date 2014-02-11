@@ -1,0 +1,53 @@
+
+bgimg		p	0	bgimg.png				-	0	0	480	360
+lives		p	0	lives_med.png			-	0	0	40	40
+boss_lives	p	0	wolf_lives.png			-	0	0	40	40
+
+#Actions of Little Red
+red_running			red_running_med.gif	0	0	36	50	0	0
+red_run1		-	0	red_running		0		-
+red_run2		-	0	red_running		1		-
+red_run3		-	0	red_running		2		-
+red_run4		-	0	red_running		3		-
+
+red_readypos		red_ready_med.gif		0	0	37	50	0	0
+red_ready1			-	0	red_readypos	0		-
+red_ready2			-	0	red_readypos	1		-
+
+
+#Actions of the Wolf
+wolf_shoot			wolf_shooting_med.gif		0	0	29	53	0	0
+wolf_shoot1		-	0	wolf_shoot		0		-
+wolf_shoot2		-	0	wolf_shoot		1		-
+
+
+#Flowers
+flower_orange	flower_orange_med.png	0	0	39	48	0	0
+flower_pink		flower_pink_med.png		0	0	31	48	0	0
+flower_red		flower_red_med.png		0	0	32	48	0	0
+flower_rose		flower_rose_med.png		0	0	15	48	0	0
+flower_yellow	flower_yellow_med.png	0	0	38	48	0	0
+orange			f1	0	flower_orange	0		-
+pink			f2	0	flower_pink		0		-
+red				f3	0	flower_red		0		-
+rose			f4	0	flower_rose		0		-
+yellow			f5	0	flower_yellow	0		-
+
+#Projectiles
+arrow_map		arrow_med.gif		0	0	7	57	0	0
+arrow1			p	0	arrow_map	0	-	
+bullet_map		bullet_med.gif		0	0	7	8	0	0
+bullet1			p	0	bullet_map	0	-
+
+#Animations
+red_run		red_run1;red_run2;red_run3;red_run4		0.1
+red_ready	red_ready1;red_ready2					0.1
+wolf_shoot	wolf_shoot1;wolf_shoot2					0.1
+arrow		arrow1									0.1
+bullet		bullet1									0.1
+
+#Sounds
+sarrow		arrow2_cut.wav
+sbullet		bullet_cut.wav
+
+
