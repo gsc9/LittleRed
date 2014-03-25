@@ -5,7 +5,7 @@ Simple 2-level game based on the story of Little Red Riding Hood, using JGame op
 
 CompSci 308 (Software Design & Implementation)
 
-
+###Game Information
 
 Genre: Non-Shooting Scroller (first level), Fighting Game (second level)
 
@@ -17,3 +17,15 @@ Second level: You've made it past the treacherous floaty flowers. But what's tha
 Basic Mechanics: Left and right arrows to dodge flowers, as well as 'z' to shoot arrows when fighting the wolf. (Shooting is disabled during the first level, but enabled during the second.)
 
 Perks: Home-baked graphics, some of which move!
+
+###Cheat Codes
+
+SKIP TO SECOND LEVEL:
+	At any point during the first level, press 'g' to skip on to the second level.
+	**You cannot use 'g' to end the game during the first or second level.
+	
+BECOME INVINCIBLE:
+	While the title page is displaying, press Shift+i to become invincible.
+	You must reactivate invincibility every time gameOver() is called
+	and the title page is displayed.
+	
