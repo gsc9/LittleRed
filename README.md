@@ -3,6 +3,8 @@ Little Red Crossbow Slinger
 
 Simple 2-level game based on the story of Little Red Riding Hood, using JGame open source code.
 
+CompSci 308 (Software Design & Implementation)
+
 
 
 Genre: Non-Shooting Scroller (first level), Fighting Game (second level)
